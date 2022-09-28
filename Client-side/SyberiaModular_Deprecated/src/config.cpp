@@ -37,10 +37,13 @@ class CfgMods {
 };
 class CfgVehicles {
     #include "predef.hpp"
+
+    // Backwards Compatibility Stuff
+    #include "medicine_base.hpp"
+
     #include "ghost_characters.hpp"
     #include "debug_items.hpp"
     #include "clothing_base.hpp"
-    #include "medicine_base.hpp"
     #include "electronic_base.hpp"
     #include "drinks.hpp"
     #include "foods.hpp"
