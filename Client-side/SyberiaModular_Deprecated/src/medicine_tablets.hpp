@@ -1,5 +1,4 @@
-#define TABLETS_ANIM_EVENTS class AnimEvents\
-{\
+#define TABLETS_ANIM_EVENTS class AnimEvents\ {\
     class SoundWeapon\
     {\
         class Tablets_open\
@@ -30,7 +29,7 @@
     };\
 }
 
-class TabletsBase : Edible_Base {
+class TabletsBase: Edible_Base {
     descriptionShort="#syb_tablets_common_desc";
     rotationFlags=17;
     itemSize[]={1,2};
@@ -51,8 +50,7 @@ class TabletsBase : Edible_Base {
     };
 };
 
-class TabletsAnalgin : TabletsBase
-{
+class TabletsAnalgin: TabletsBase {
     scope=2;
     displayName="#syb_analgin_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -68,8 +66,7 @@ class TabletsAnalgin : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsNaiz : TabletsBase
-{
+class TabletsNaiz: TabletsBase {
     scope=2;
     displayName="#syb_naiz_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -85,8 +82,7 @@ class TabletsNaiz : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsAertal : TabletsBase
-{
+class TabletsAertal: TabletsBase {
     scope=2;
     displayName="#syb_aertal_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -102,8 +98,7 @@ class TabletsAertal : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsNimesil : TabletsBase
-{
+class TabletsNimesil: TabletsBase {
     scope=2;
     displayName="#syb_nimesil_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -119,8 +114,7 @@ class TabletsNimesil : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsPentalgin : TabletsBase
-{
+class TabletsPentalgin: TabletsBase {
     scope=2;
     displayName="#syb_pentalgin_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -136,8 +130,7 @@ class TabletsPentalgin : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsMovalis : TabletsBase
-{
+class TabletsMovalis: TabletsBase {
     scope=2;
     displayName="#syb_movalis_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -154,8 +147,7 @@ class TabletsMovalis : TabletsBase
 };
 
 
-class TabletsCytramon : TabletsBase
-{
+class TabletsCytramon: TabletsBase {
     scope=2;
     displayName="#syb_cytramon_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -171,8 +163,7 @@ class TabletsCytramon : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsParacetamol : TabletsBase
-{
+class TabletsParacetamol: TabletsBase {
     scope=2;
     displayName="#syb_paracetamol_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -192,8 +183,7 @@ class TabletsParacetamol : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsIbuprofen : TabletsBase
-{
+class TabletsIbuprofen: TabletsBase {
     scope=2;
     displayName="#syb_ibuprofen_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -213,8 +203,7 @@ class TabletsIbuprofen : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsNurofen : TabletsBase
-{
+class TabletsNurofen: TabletsBase {
     scope=2;
     displayName="#syb_nurofen_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -234,8 +223,7 @@ class TabletsNurofen : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsTetracycline : TabletsBase
-{
+class TabletsTetracycline: TabletsBase {
     scope=2;
     displayName="#syb_tetracycline_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -253,8 +241,7 @@ class TabletsTetracycline : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsAmoksiklav : TabletsBase
-{
+class TabletsAmoksiklav: TabletsBase {
     scope=2;
     displayName="#syb_amoksiklav_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -272,8 +259,7 @@ class TabletsAmoksiklav : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsAmpicylin : TabletsBase
-{
+class TabletsAmpicylin: TabletsBase {
     scope=2;
     displayName="#syb_ampicilin_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -291,8 +277,7 @@ class TabletsAmpicylin : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsPiperacylin : TabletsBase
-{
+class TabletsPiperacylin: TabletsBase {
     scope=2;
     displayName="#syb_piperacyclin_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -310,8 +295,7 @@ class TabletsPiperacylin : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsTrihopol : TabletsBase
-{
+class TabletsTrihopol: TabletsBase {
     scope=2;
     displayName="#syb_trihopol_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -329,8 +313,7 @@ class TabletsTrihopol : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsCyprolet : TabletsBase
-{
+class TabletsCyprolet: TabletsBase {
     scope=2;
     displayName="#syb_cyprolet_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -348,8 +331,7 @@ class TabletsCyprolet : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsAmoksivan : TabletsBase
-{
+class TabletsAmoksivan: TabletsBase {
     scope=2;
     displayName="#syb_amoksivan_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -367,8 +349,7 @@ class TabletsAmoksivan : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsAmibaktam : TabletsBase
-{
+class TabletsAmibaktam: TabletsBase {
     scope=2;
     displayName="#syb_amibaktam_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -385,8 +366,7 @@ class TabletsAmibaktam : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsCharcoal : TabletsBase
-{
+class TabletsCharcoal: TabletsBase {
     scope=2;
     displayName="#syb_charcoal_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -403,8 +383,7 @@ class TabletsCharcoal : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsMezimForte : TabletsBase
-{
+class TabletsMezimForte: TabletsBase {
     scope=2;
     displayName="#syb_mezim_forte_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -421,8 +400,7 @@ class TabletsMezimForte : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsZerukal : TabletsBase
-{
+class TabletsZerukal: TabletsBase {
     scope=2;
     displayName="#syb_zerukal_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -439,8 +417,7 @@ class TabletsZerukal : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsNifuroksazid : TabletsBase
-{
+class TabletsNifuroksazid: TabletsBase {
     scope=2;
     displayName="#syb_nifuroksazid_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -457,8 +434,7 @@ class TabletsNifuroksazid : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsPolisorb : TabletsBase
-{
+class TabletsPolisorb: TabletsBase {
     scope=2;
     displayName="#syb_polisorb_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -475,8 +451,7 @@ class TabletsPolisorb : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsKarbopekt : TabletsBase
-{
+class TabletsKarbopekt: TabletsBase {
     scope=2;
     displayName="#syb_karbopekt_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -492,8 +467,7 @@ class TabletsKarbopekt : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsEnterofuril : TabletsBase
-{
+class TabletsEnterofuril: TabletsBase {
     scope=2;
     displayName="#syb_enterofuril_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -509,8 +483,7 @@ class TabletsEnterofuril : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsErsefuril : TabletsBase
-{
+class TabletsErsefuril: TabletsBase {
     scope=2;
     displayName="#syb_ersefuril_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -526,8 +499,7 @@ class TabletsErsefuril : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsSalofalk : TabletsBase
-{
+class TabletsSalofalk: TabletsBase {
     scope=2;
     displayName="#syb_salofalk_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -543,8 +515,7 @@ class TabletsSalofalk : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsFtalazol : TabletsBase
-{
+class TabletsFtalazol: TabletsBase {
     scope=2;
     displayName="#syb_ftalazol_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -560,8 +531,7 @@ class TabletsFtalazol : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsMesalazin : TabletsBase
-{
+class TabletsMesalazin: TabletsBase {
     scope=2;
     displayName="#syb_mesalazin_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -577,8 +547,7 @@ class TabletsMesalazin : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsNoopept : TabletsBase
-{
+class TabletsNoopept: TabletsBase {
     scope=2;
     displayName="#syb_noopept_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -595,8 +564,7 @@ class TabletsNoopept : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsVikasol : TabletsBase
-{
+class TabletsVikasol: TabletsBase {
     scope=2;
     displayName="#syb_vikasol_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -612,8 +580,7 @@ class TabletsVikasol : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsDycinon : TabletsBase
-{
+class TabletsDycinon: TabletsBase {
     scope=2;
     displayName="#syb_dycinon_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -629,8 +596,7 @@ class TabletsDycinon : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsIrovit : TabletsBase
-{
+class TabletsIrovit: TabletsBase {
     scope=2;
     displayName="#syb_irovit_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -646,8 +612,7 @@ class TabletsIrovit : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsTardiferon : TabletsBase
-{
+class TabletsTardiferon: TabletsBase {
     scope=2;
     displayName="#syb_tardiferon_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -663,8 +628,7 @@ class TabletsTardiferon : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsHeferol : TabletsBase
-{
+class TabletsHeferol: TabletsBase {
     scope=2;
     displayName="#syb_heferol_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -680,8 +644,7 @@ class TabletsHeferol : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsSorbiferDurulis : TabletsBase
-{
+class TabletsSorbiferDurulis: TabletsBase {
     scope=2;
     displayName="#syb_surbifer_durulis_name";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -700,8 +663,7 @@ class TabletsSorbiferDurulis : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsPotassiumIodide : TabletsBase
-{
+class TabletsPotassiumIodide: TabletsBase {
     scope=2;
     displayName="#syb_potassium_iodide";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -718,8 +680,7 @@ class TabletsPotassiumIodide : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsPotassiumHexacyanoferrate : TabletsBase
-{
+class TabletsPotassiumHexacyanoferrate: TabletsBase {
     scope=2;
     displayName="#syb_potassium_hexacyanoferrate";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -736,8 +697,7 @@ class TabletsPotassiumHexacyanoferrate : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsCystamine : TabletsBase
-{
+class TabletsCystamine: TabletsBase {
     scope=2;
     displayName="#syb_cystamine";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -754,8 +714,7 @@ class TabletsCystamine : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsB190 : TabletsBase
-{
+class TabletsB190: TabletsBase {
     scope=2;
     displayName="#syb_b190";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -772,8 +731,7 @@ class TabletsB190 : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsMexamine : TabletsBase
-{
+class TabletsMexamine: TabletsBase {
     scope=2;
     displayName="#syb_mexamine";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -790,8 +748,7 @@ class TabletsMexamine : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsAgteminol : TabletsBase
-{
+class TabletsAgteminol: TabletsBase {
     scope=2;
     displayName="#syb_agteminol";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -808,8 +765,7 @@ class TabletsAgteminol : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsAdepress : TabletsBase
-{
+class TabletsAdepress: TabletsBase {
     scope=2;
     displayName="#syb_adepress";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -826,8 +782,7 @@ class TabletsAdepress : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsActaparoxetine : TabletsBase
-{
+class TabletsActaparoxetine: TabletsBase {
     scope=2;
     displayName="#syb_aktaparoksetyn";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -844,8 +799,7 @@ class TabletsActaparoxetine : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsAmitriptyline : TabletsBase
-{
+class TabletsAmitriptyline: TabletsBase {
     scope=2;
     displayName="#syb_amitriptilin";
     model="SyberiaScripts\data\medical\tablets.p3d";
@@ -862,8 +816,7 @@ class TabletsAmitriptyline : TabletsBase
     TABLETS_ANIM_EVENTS;
 };
 
-class TabletsVenlafaxine : TabletsBase
-{
+class TabletsVenlafaxine: TabletsBase {
     scope=2;
     displayName="#syb_venlafaxyn";
     model="SyberiaScripts\data\medical\tablets.p3d";

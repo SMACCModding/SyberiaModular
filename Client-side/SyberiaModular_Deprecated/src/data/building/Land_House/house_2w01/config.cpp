@@ -1,5 +1,4 @@
-class CfgPatches
-{
+class CfgPatches {
 	class SyberiaScripts
 	{
 		units[]={};
@@ -11,8 +10,7 @@ class CfgPatches
 		};
 	};
 };
-class CfgVehicles
-{
+class CfgVehicles {
 	class BuildingLivespace;
 	
 	class Land_House_2W01_Livespace0: BuildingLivespace
@@ -800,8 +798,7 @@ class CfgVehicles
 		};
 	};
 };
-class CfgBuildingInfo
-{
+class CfgBuildingInfo {
     class Land_House_2W01
     {
 		class Livespace0

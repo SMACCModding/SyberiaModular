@@ -1,5 +1,4 @@
-class ItemPDA: Clothing
-{
+class ItemPDA: Clothing {
     scope = 2;
     title = "#pda_item_name";
     displayName = "#pda_item_name";
@@ -16,8 +15,7 @@ class ItemPDA: Clothing
     itemSize[]={1,2};
     animClass="ItemPDA";
     oldpower=0;
-    class ClothingTypes
-    {
+    class ClothingTypes {
         male = "SyberiaScripts\data\pda\gear_pda_m.p3d";
         female = "SyberiaScripts\data\pda\gear_pda_m.p3d";
     };
@@ -34,8 +32,7 @@ class ItemPDA: Clothing
     {
         "BatteryD"
     };
-    class EnergyManager
-    {
+    class EnergyManager {
         hasIcon=1;
         autoSwitchOff=1;
         energyUsagePerSecond=0.0001;
@@ -44,8 +41,7 @@ class ItemPDA: Clothing
         wetnessExposure=0.1;
     };
     ITEM_DAMAGE_SYSTEM(100, "SyberiaScripts\data\pda\pda.rvmat", "SyberiaScripts\data\pda\pda.rvmat", "SyberiaScripts\data\pda\pda.rvmat");
-    class AnimEvents
-    {
+    class AnimEvents {
         class SoundWeapon
         {
             class pickUpItem

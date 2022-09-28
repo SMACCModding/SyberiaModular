@@ -1,4 +1,3 @@
-class BuildingLivespace : HouseNoDestruct
-{
+class BuildingLivespace: HouseNoDestruct {
     scope=1;
 };

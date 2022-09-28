@@ -1,45 +1,36 @@
-class PainkillerTablets : Edible_Base
-{
+class PainkillerTablets: Edible_Base {
     scope=0;
 };
 
-class InjectionVial: Inventory_Base
-{
+class InjectionVial: Inventory_Base {
     scope=0;
 };
 
-class Epinephrine: Inventory_Base
-{
+class Epinephrine: Inventory_Base {
     scope=0;
 };
 
-class Syringe: Epinephrine
-{
+class Syringe: Epinephrine {
     scope=0;
 };
 
-class ClearSyringe: Inventory_Base
-{
+class ClearSyringe: Inventory_Base {
     scope=0;
 };
 
-class BloodSyringe: Inventory_Base
-{
+class BloodSyringe: Inventory_Base {
     scope=0;
 };
 
-class Morphine: Inventory_Base
-{
+class Morphine: Inventory_Base {
     scope=0;
 };
 
-class CharcoalTablets: Edible_Base
-{
+class CharcoalTablets: Edible_Base {
     scope=0;
 };
 
-class TetracyclineAntibiotics: Edible_Base
-{
+class TetracyclineAntibiotics: Edible_Base {
     scope=0;
 };
 
@@ -49,19 +40,16 @@ class TetracyclineAntibiotics: Edible_Base
 //    scope=0;
 //};
 
-class BandageDressing: Inventory_Base
-{
+class BandageDressing: Inventory_Base {
     medBloodStop=2;
     medicalItem=1;
 };
 
-class Bandana_ColorBase: Clothing
-{
+class Bandana_ColorBase: Clothing {
     medBloodStop=2;
 };
 
-class Rag: Inventory_Base
-{
+class Rag: Inventory_Base {
     medBloodStop=2;
     canBeSplit = 1;
     varQuantityInit = 1.0;
@@ -70,64 +58,52 @@ class Rag: Inventory_Base
     varQuantityDestroyOnMin = 1;
 };
 
-class SurgicalGloves_ColorBase: Clothing
-{
+class SurgicalGloves_ColorBase: Clothing {
     medGloves=1;
     varCleannessInit=1;
     medicalItem=1;
 };
 
-class PurificationTablets: Edible_Base
-{
+class PurificationTablets: Edible_Base {
     medicalItem=1;
 };
 
-class IodineTincture: Edible_Base
-{
+class IodineTincture: Edible_Base {
     medicalItem=1;
 };
 
-class DisinfectantAlcohol: Edible_Base
-{
+class DisinfectantAlcohol: Edible_Base {
     medicalItem=1;
 };
 
-class DisinfectantSpray: Edible_Base
-{
+class DisinfectantSpray: Edible_Base {
     medicalItem=1;
 };
 
-class SalineBag: Inventory_Base
-{
+class SalineBag: Inventory_Base {
     medicalItem=1;
 };
 
-class StartKitIV: Inventory_Base
-{
+class StartKitIV: Inventory_Base {
     medicalItem=1;
 };
 
-class SalineBagIV: Inventory_Base
-{
+class SalineBagIV: Inventory_Base {
     medicalItem=1;
 };
 
-class BloodBagEmpty: Inventory_Base
-{
+class BloodBagEmpty: Inventory_Base {
     medicalItem=1;
 };
 
-class BloodBagFull: Inventory_Base
-{
+class BloodBagFull: Inventory_Base {
     medicalItem=1;
 };
 
-class BloodBagIV: Inventory_Base
-{
+class BloodBagIV: Inventory_Base {
     medicalItem=1;
 };
 
-class BloodTestKit: Inventory_Base
-{
+class BloodTestKit: Inventory_Base {
     medicalItem=1;
 };

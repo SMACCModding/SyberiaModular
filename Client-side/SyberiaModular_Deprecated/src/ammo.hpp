@@ -1,83 +1,59 @@
-class MeleeDamage; 
-
-class MeleeFist: MeleeDamage
-{
-    class DamageApplied
-    {
+class MeleeDamage;
+class MeleeFist: MeleeDamage {
+    class DamageApplied {
         type="Melee";
-        class Health
-        {
+        class Health {
             damage=2;
             armorDamage=0.1;
         };
-        class Blood
-        {
+        class Blood {
             damage=0;
         };
-        class Shock
-        {
+        class Shock {
             damage=5;
         };
     };
 };
-
-class MeleeFist_Heavy: MeleeFist
-{
+class MeleeFist_Heavy: MeleeFist {
     hitAnimation=1;
-    class DamageApplied
-    {
+    class DamageApplied {
         type="Melee";
-        class Health
-        {
+        class Health {
             damage=5;
             armorDamage=0.1;
         };
-        class Blood
-        {
+        class Blood {
             damage=0;
         };
-        class Shock
-        {
+        class Shock {
             damage=15;
         };
     };
 };
-
-class MeleeBrassKnuckles: MeleeDamage
-{
-    class DamageApplied
-    {
+class MeleeBrassKnuckles: MeleeDamage {
+    class DamageApplied {
         type="Melee";
-        class Health
-        {
+        class Health {
             damage=5;
         };
-        class Blood
-        {
+        class Blood {
             damage=0;
         };
-        class Shock
-        {
+        class Shock {
             damage=15;
         };
     };
 };
-
-class MeleeBrassKnuckles_Heavy: MeleeBrassKnuckles
-{
-    class DamageApplied
-    {
+class MeleeBrassKnuckles_Heavy: MeleeBrassKnuckles {
+    class DamageApplied {
         type="Melee";
-        class Health
-        {
+        class Health {
             damage=10;
         };
-        class Blood
-        {
+        class Blood {
             damage=0;
         };
-        class Shock
-        {
+        class Shock {
             damage=20;
         };
     };

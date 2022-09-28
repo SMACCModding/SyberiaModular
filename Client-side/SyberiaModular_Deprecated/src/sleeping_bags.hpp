@@ -1,4 +1,4 @@
-class SleepingBag_BaseColor : Inventory_Base {
+class SleepingBag_BaseColor: Inventory_Base {
     scope=0;
     displayName="#syb_sbag_packed_name";
     descriptionShort="#syb_sbag_packed_desc";
@@ -17,7 +17,7 @@ class SleepingBag_BaseColor : Inventory_Base {
     };
 };
 
-class SleepingBagPlaced_BaseColor : BaseBuildingBase {
+class SleepingBagPlaced_BaseColor: BaseBuildingBase {
     displayName="#syb_sbag_packed_name";
     descriptionShort="#syb_sbag_packed_desc";
     model="SyberiaScripts\data\sleeping\sbag_placed.p3d";
@@ -43,7 +43,7 @@ class SleepingBagPlaced_BaseColor : BaseBuildingBase {
     varTemperatureMax=25;
 };
 
-class SleepingBagPlacing : BaseBuildingBase {
+class SleepingBagPlacing: BaseBuildingBase {
     scope=1;
     hologramMaterial="tent_medium";
     hologramMaterialPath="dz\gear\camping\data";
@@ -56,7 +56,7 @@ class SleepingBagPlacing : BaseBuildingBase {
 };
 
 // BLUE
-class SleepingBag_Blue : SleepingBag_BaseColor {
+class SleepingBag_Blue: SleepingBag_BaseColor {
     scope=2;
     placedName="SleepingBagPlaced_Blue";
     hiddenSelectionsTextures[]=
@@ -66,7 +66,7 @@ class SleepingBag_Blue : SleepingBag_BaseColor {
     ITEM_DAMAGE_SYSTEM(300, "SyberiaScripts\data\sleeping\sbag_packed.rvmat", "SyberiaScripts\data\sleeping\sbag_packed_damage.rvmat", "SyberiaScripts\data\sleeping\sbag_packed_destruct.rvmat");
 };
 
-class SleepingBagPlaced_Blue : SleepingBagPlaced_BaseColor {
+class SleepingBagPlaced_Blue: SleepingBagPlaced_BaseColor {
     scope=2;
     packedName="SleepingBag_Blue";
     hiddenSelectionsTextures[]=
@@ -77,7 +77,7 @@ class SleepingBagPlaced_Blue : SleepingBagPlaced_BaseColor {
 };
 
 // WOODLAND
-class SleepingBag_Woodland : SleepingBag_BaseColor {
+class SleepingBag_Woodland: SleepingBag_BaseColor {
     scope=2;
     placedName="SleepingBagPlaced_Woodland";
     hiddenSelectionsTextures[]=
@@ -87,7 +87,7 @@ class SleepingBag_Woodland : SleepingBag_BaseColor {
     ITEM_DAMAGE_SYSTEM(200, "SyberiaScripts\data\sleeping\sbag_packed.rvmat", "SyberiaScripts\data\sleeping\sbag_packed_damage.rvmat", "SyberiaScripts\data\sleeping\sbag_packed_destruct.rvmat");
 };
 
-class SleepingBagPlaced_Woodland : SleepingBagPlaced_BaseColor {
+class SleepingBagPlaced_Woodland: SleepingBagPlaced_BaseColor {
     scope=2;
     packedName="SleepingBag_Woodland";
     hiddenSelectionsTextures[]=

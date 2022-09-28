@@ -1,5 +1,4 @@
-#define INJECTOR_ANIM_EVENTS class AnimEvents\
-{\
+#define INJECTOR_ANIM_EVENTS class AnimEvents\ {\
     class SoundWeapon\
     {\
         class Morphine_spear\
@@ -16,8 +15,7 @@
 }
 
 
-class MedContainerSmall: Container_Base
-{
+class MedContainerSmall: Container_Base {
     scope=2;
     displayName="#syb_medcontainer_small_name";
     descriptionShort="#syb_medcontainer_small_desc";
@@ -51,8 +49,7 @@ class MedContainerSmall: Container_Base
     };
 };
 
-class MedContainerMedium: Container_Base
-{
+class MedContainerMedium: Container_Base {
     scope=2;
     displayName="#syb_medcontainer_middle_name";
     descriptionShort="#syb_medcontainer_middle_desc";
@@ -86,8 +83,7 @@ class MedContainerMedium: Container_Base
     };
 };
 
-class MedContainerLarge: Container_Base
-{
+class MedContainerLarge: Container_Base {
     scope=2;
     displayName="#syb_medcontainer_large_name";
     descriptionShort="#syb_medcontainer_large_desc";

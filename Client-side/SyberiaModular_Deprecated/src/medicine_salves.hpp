@@ -1,5 +1,4 @@
-class SalveBase : Inventory_Base
-{
+class SalveBase: Inventory_Base {
     descriptionShort="#syb_salve_desc";
     rotationFlags=17;
     itemSize[]={1,2};
@@ -14,8 +13,7 @@ class SalveBase : Inventory_Base
     medicalItem=1;
 };
 
-class SalveKapsikam : SalveBase
-{
+class SalveKapsikam: SalveBase {
     scope=2;
     displayName="#syb_kapsikam_name";
     model="\dz\gear\medical\VitaminBottle.p3d";
@@ -26,8 +24,7 @@ class SalveKapsikam : SalveBase
     ITEM_DAMAGE_SYSTEM(150, "DZ\gear\medical\data\vitamin_bottle.rvmat", "DZ\gear\medical\data\vitamin_bottle_damage.rvmat", "DZ\gear\medical\data\vitamin_bottle_destruct.rvmat");
 };
 
-class SalveFinalgon : SalveBase
-{
+class SalveFinalgon: SalveBase {
     scope=2;
     displayName="#syb_finalgon_name";
     model="\dz\gear\medical\VitaminBottle.p3d";
@@ -38,8 +35,7 @@ class SalveFinalgon : SalveBase
     ITEM_DAMAGE_SYSTEM(150, "DZ\gear\medical\data\vitamin_bottle.rvmat", "DZ\gear\medical\data\vitamin_bottle_damage.rvmat", "DZ\gear\medical\data\vitamin_bottle_destruct.rvmat");
 };
 
-class SalveViprosal : SalveBase
-{
+class SalveViprosal: SalveBase {
     scope=2;
     displayName="#syb_viprosal_name";
     model="\dz\gear\medical\VitaminBottle.p3d";

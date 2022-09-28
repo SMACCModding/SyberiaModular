@@ -1,17 +1,13 @@
-#define AMPOUL_ANIM_EVENT class AnimEvents\
-{\
-    class SoundWeapon\
-    {\
-        class pickUpItem\
-        {\
+#define AMPOUL_ANIM_EVENT class AnimEvents {\
+    class SoundWeapon {\
+        class pickUpItem {\
             soundSet="injectionvial_pickup_SoundSet";\
             id=797;\
         };\
     };\
 }
 
-class SyberiaMedicineAmpoule : Inventory_Base
-{
+class SyberiaMedicineAmpoule: Inventory_Base {
     descriptionShort="#syb_ampoule_desc";
     itemSize[]={1,2};
     weight=100;
@@ -30,8 +26,7 @@ class SyberiaMedicineAmpoule : Inventory_Base
     };
 };
 
-class AmpouleAlcohol : SyberiaMedicineAmpoule
-{
+class AmpouleAlcohol: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_alcohol_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -43,8 +38,7 @@ class AmpouleAlcohol : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleHihlofos : SyberiaMedicineAmpoule
-{
+class AmpouleHihlofos: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_dihlofos_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -56,8 +50,7 @@ class AmpouleHihlofos : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleCypermetrin : SyberiaMedicineAmpoule
-{
+class AmpouleCypermetrin: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_cypermetrin_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -69,8 +62,7 @@ class AmpouleCypermetrin : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleDiazinon : SyberiaMedicineAmpoule
-{
+class AmpouleDiazinon: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_diazinon_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -82,8 +74,7 @@ class AmpouleDiazinon : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleArsenic : SyberiaMedicineAmpoule
-{
+class AmpouleArsenic: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_arsenic_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -95,8 +86,7 @@ class AmpouleArsenic : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleNovocain : SyberiaMedicineAmpoule
-{
+class AmpouleNovocain: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_novocaine_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -108,8 +98,7 @@ class AmpouleNovocain : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleIrineks : SyberiaMedicineAmpoule
-{
+class AmpouleIrineks: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_irineks_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -121,8 +110,7 @@ class AmpouleIrineks : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleNimesulid : SyberiaMedicineAmpoule
-{
+class AmpouleNimesulid: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_nimesulid_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -134,8 +122,7 @@ class AmpouleNimesulid : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleKetoprofen : SyberiaMedicineAmpoule
-{
+class AmpouleKetoprofen: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_ketoprofen_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -147,8 +134,7 @@ class AmpouleKetoprofen : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpoulePropofol : SyberiaMedicineAmpoule
-{
+class AmpoulePropofol: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_propofol_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -161,8 +147,7 @@ class AmpoulePropofol : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleTiopental : SyberiaMedicineAmpoule
-{
+class AmpouleTiopental: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_tiopental_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -175,8 +160,7 @@ class AmpouleTiopental : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleKetamin : SyberiaMedicineAmpoule
-{
+class AmpouleKetamin: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_ketamin_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -189,8 +173,7 @@ class AmpouleKetamin : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpoulePropanidid : SyberiaMedicineAmpoule
-{
+class AmpoulePropanidid: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_propanidid_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -202,8 +185,7 @@ class AmpoulePropanidid : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleGexobarbital : SyberiaMedicineAmpoule
-{
+class AmpouleGexobarbital: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_gexobarbital_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -215,8 +197,7 @@ class AmpouleGexobarbital : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleSodiumOxybutirate : SyberiaMedicineAmpoule
-{
+class AmpouleSodiumOxybutirate: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_sodium_oxybutirate_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -233,8 +214,7 @@ class AmpouleSodiumOxybutirate : SyberiaMedicineAmpoule
 
 
 
-class AmpouleMetoclopramid : SyberiaMedicineAmpoule
-{
+class AmpouleMetoclopramid: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_metoclopramid_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -246,8 +226,7 @@ class AmpouleMetoclopramid : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleZerukal : SyberiaMedicineAmpoule
-{
+class AmpouleZerukal: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_zerukal_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -259,8 +238,7 @@ class AmpouleZerukal : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleKetorol : SyberiaMedicineAmpoule
-{
+class AmpouleKetorol: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_ketorol_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -277,8 +255,7 @@ class AmpouleKetorol : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleDiklofenak : SyberiaMedicineAmpoule
-{
+class AmpouleDiklofenak: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_diklofenak_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -292,8 +269,7 @@ class AmpouleDiklofenak : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleHeptral : SyberiaMedicineAmpoule
-{
+class AmpouleHeptral: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_heptral_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -309,8 +285,7 @@ class AmpouleHeptral : SyberiaMedicineAmpoule
 
 
 
-class AmpouleCylaspen : SyberiaMedicineAmpoule
-{
+class AmpouleCylaspen: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_cylaspen_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -324,8 +299,7 @@ class AmpouleCylaspen : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleGrimipenem : SyberiaMedicineAmpoule
-{
+class AmpouleGrimipenem: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_grimipenem_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -339,8 +313,7 @@ class AmpouleGrimipenem : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleZeftriaxon : SyberiaMedicineAmpoule
-{
+class AmpouleZeftriaxon: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_zeftriaxon_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -354,8 +327,7 @@ class AmpouleZeftriaxon : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleErytromicyn : SyberiaMedicineAmpoule
-{
+class AmpouleErytromicyn: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_erytromicyn_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -369,8 +341,7 @@ class AmpouleErytromicyn : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleFlemoclav : SyberiaMedicineAmpoule
-{
+class AmpouleFlemoclav: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_flemoclav_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -385,8 +356,7 @@ class AmpouleFlemoclav : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleOcsacylin : SyberiaMedicineAmpoule
-{
+class AmpouleOcsacylin: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_ocsacylin_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -401,8 +371,7 @@ class AmpouleOcsacylin : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleImipenem : SyberiaMedicineAmpoule
-{
+class AmpouleImipenem: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_imipenem_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -417,8 +386,7 @@ class AmpouleImipenem : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleAmoksivan : SyberiaMedicineAmpoule
-{
+class AmpouleAmoksivan: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_amoksivan_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -435,8 +403,7 @@ class AmpouleAmoksivan : SyberiaMedicineAmpoule
 
 
 
-class AmpouleZivirol : SyberiaMedicineAmpoule
-{
+class AmpouleZivirol: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_zvirus_antidot_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -448,8 +415,7 @@ class AmpouleZivirol : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleMeksidol : SyberiaMedicineAmpoule
-{
+class AmpouleMeksidol: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_meksidol_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -461,8 +427,7 @@ class AmpouleMeksidol : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleActovegin : SyberiaMedicineAmpoule
-{
+class AmpouleActovegin: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_actovegin_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -474,8 +439,7 @@ class AmpouleActovegin : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleNeiroks : SyberiaMedicineAmpoule
-{
+class AmpouleNeiroks: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_neiroks_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -489,8 +453,7 @@ class AmpouleNeiroks : SyberiaMedicineAmpoule
 
 
 
-class AmpoulePeklitakcel : SyberiaMedicineAmpoule
-{
+class AmpoulePeklitakcel: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_peklitakcel_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -503,8 +466,7 @@ class AmpoulePeklitakcel : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleNonacogAlpha : SyberiaMedicineAmpoule
-{
+class AmpouleNonacogAlpha: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_nonacog_alpha_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -517,8 +479,7 @@ class AmpouleNonacogAlpha : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleAminokaprolSulfat : SyberiaMedicineAmpoule
-{
+class AmpouleAminokaprolSulfat: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_aminokapsulfat_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -531,8 +492,7 @@ class AmpouleAminokaprolSulfat : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleVikasol : SyberiaMedicineAmpoule
-{
+class AmpouleVikasol: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_vikasol_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -545,8 +505,7 @@ class AmpouleVikasol : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleEtamzilat : SyberiaMedicineAmpoule
-{
+class AmpouleEtamzilat: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_etamzilat_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -559,8 +518,7 @@ class AmpouleEtamzilat : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpoulePerftoran : SyberiaMedicineAmpoule
-{
+class AmpoulePerftoran: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_perftoran_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -573,8 +531,7 @@ class AmpoulePerftoran : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleMaltofer : SyberiaMedicineAmpoule
-{
+class AmpouleMaltofer: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_maltofer_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -587,8 +544,7 @@ class AmpouleMaltofer : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleErytropoenin : SyberiaMedicineAmpoule
-{
+class AmpouleErytropoenin: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_erytropoenin_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -604,8 +560,7 @@ class AmpouleErytropoenin : SyberiaMedicineAmpoule
 };
 
 
-class AmpouleAdrenalin05 : SyberiaMedicineAmpoule
-{
+class AmpouleAdrenalin05: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_adrenalin05_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -618,8 +573,7 @@ class AmpouleAdrenalin05 : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleAdrenalin10 : SyberiaMedicineAmpoule
-{
+class AmpouleAdrenalin10: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_adrenalin10_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -632,8 +586,7 @@ class AmpouleAdrenalin10 : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleAdrenalin30 : SyberiaMedicineAmpoule
-{
+class AmpouleAdrenalin30: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_adrenalin30_name";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -646,8 +599,7 @@ class AmpouleAdrenalin30 : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpoulePentacin : SyberiaMedicineAmpoule
-{
+class AmpoulePentacin: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_pentacin";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -660,8 +612,7 @@ class AmpoulePentacin : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleCarboxyme : SyberiaMedicineAmpoule
-{
+class AmpouleCarboxyme: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_carboxyme";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -674,8 +625,7 @@ class AmpouleCarboxyme : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleMetralindol : SyberiaMedicineAmpoule
-{
+class AmpouleMetralindol: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_metralyndol";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -688,8 +638,7 @@ class AmpouleMetralindol : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleActaparoxetine : SyberiaMedicineAmpoule
-{
+class AmpouleActaparoxetine: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_aktaparoksetyn";
     model="\dz\gear\medical\injectionvial.p3d";
@@ -702,8 +651,7 @@ class AmpouleActaparoxetine : SyberiaMedicineAmpoule
     AMPOUL_ANIM_EVENT;
 };
 
-class AmpouleAmitriptyline : SyberiaMedicineAmpoule
-{
+class AmpouleAmitriptyline: SyberiaMedicineAmpoule {
     scope=2;
     displayName="#syb_amitriptilin";
     model="\dz\gear\medical\injectionvial.p3d";

@@ -1,5 +1,4 @@
-class CfgPatches
-{
+class CfgPatches {
 	class SyberiaScripts
 	{
 		units[]={};
@@ -11,12 +10,10 @@ class CfgPatches
 		};
 	};
 };
-class CfgVehicles
-{
+class CfgVehicles {
 	class BuildingLivespace;
 	
-	class Land_Barn_Wood2_Livespace0: BuildingLivespace
-    {
+	class Land_Barn_Wood2_Livespace0: BuildingLivespace {
         model="SyberiaScripts\data\building\barn\barn_wood2_livespace0.p3d";
         simpleHiddenSelections[] = {
             "l1",
@@ -458,8 +455,7 @@ class CfgVehicles
 		};
     };
 };
-class CfgBuildingInfo
-{
+class CfgBuildingInfo {
     class Land_Barn_Wood2
     {
         class Livespace0

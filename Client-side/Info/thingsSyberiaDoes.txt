@@ -1,0 +1,25 @@
+### Things Syberia Currently does ###
+Butchering Animals
+Radiation, PSI, Safe and other Zones
+PDA for long range communication and RP friendly group system
+Player-2-Player Trader
+Homeowner-ship
+Sleep System
+Mental Health System
+Custom Medications
+Blocks Actions depending on clothing
+Obscured Item names based on skill level
+Skill System
+Custom melee and firearm protection
+Custom bulletProofProtection
+
+
+
+### Things I'd like in Syberia ###
+Baby Animals
+Controls for Ammo Damage Tweaking
+Controls for Armor Damage Tweaking
+Books increase skill xp gain
+Traits
+Character Age, Height and profession
+

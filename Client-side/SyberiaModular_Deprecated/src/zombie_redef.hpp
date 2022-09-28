@@ -1,6 +1,5 @@
 class DayZInfected;
-class ZombieBase: DayZInfected
-{
+class ZombieBase: DayZInfected {
     class DamageSystem
     {
         class GlobalHealth

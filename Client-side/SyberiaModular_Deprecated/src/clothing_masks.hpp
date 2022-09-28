@@ -1,9 +1,7 @@
-class GasMask: Clothing
-{
+class GasMask: Clothing {
     radiationProtection = 0.31;
 };
 
-class GasMask_Filter: Inventory_Base
-{
+class GasMask_Filter: Inventory_Base {
     radiationProtection = 0.29;
 };

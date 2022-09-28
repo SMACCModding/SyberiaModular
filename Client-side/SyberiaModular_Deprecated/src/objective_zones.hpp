@@ -1,5 +1,4 @@
-class SyberiaObjectiveZone : HouseNoDestruct
-{
+class SyberiaObjectiveZone: HouseNoDestruct {
     scope=0;
     radius = 0.0;
     height = -1.0;
@@ -74,22 +73,19 @@ class SyberiaObjectiveZone : HouseNoDestruct
     };
 };
 
-class SyberiaObjectiveZone_Radiation100 : SyberiaObjectiveZone
-{
+class SyberiaObjectiveZone_Radiation100: SyberiaObjectiveZone {
     scope=1;
     radius=100;
     radiation=1.0;
 };
 
-class SyberiaObjectiveZone_PSI100 : SyberiaObjectiveZone
-{
+class SyberiaObjectiveZone_PSI100: SyberiaObjectiveZone {
     scope=1;
     radius=100;
     psi=1.0;
 };
 
-class SyberiaObjectiveZone_Toxic100 : SyberiaObjectiveZone
-{
+class SyberiaObjectiveZone_Toxic100: SyberiaObjectiveZone {
     scope=1;
     radius=100;
     gas=1.0;

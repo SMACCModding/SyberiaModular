@@ -32,8 +32,7 @@ class CfgMods {
 	};
 };
 
-class CfgSyberia
-{
+class CfgSyberia {
     class SleepingSystem
     {
         sleepingDecPerSec = 1;

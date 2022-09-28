@@ -1,5 +1,4 @@
-class Stethoscope: Clothing
-{
+class Stethoscope: Clothing {
     scope=2;
     displayName="#syb_stethoscope_name";
     descriptionShort="#syb_stethoscope_desc";
@@ -44,13 +43,11 @@ class Stethoscope: Clothing
             };
         };
     };
-    class ClothingTypes
-    {
+    class ClothingTypes {
         male="SyberiaScripts\data\medical\Stethoscope_m.p3d";
         female="SyberiaScripts\data\medical\Stethoscope_m.p3d";
     };
-    class AnimEvents
-    {
+    class AnimEvents {
         class SoundWeapon
         {
             class pickUpItem

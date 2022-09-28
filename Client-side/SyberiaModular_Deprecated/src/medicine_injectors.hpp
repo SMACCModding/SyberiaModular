@@ -1,5 +1,4 @@
-#define INJECTOR_ANIM_EVENTS class AnimEvents\
-{\
+#define INJECTOR_ANIM_EVENTS class AnimEvents\ {\
     class SoundWeapon\
     {\
         class Morphine_spear\
@@ -16,8 +15,7 @@
 }
 
 
-class InjectorBase : Inventory_Base
-{
+class InjectorBase: Inventory_Base {
     descriptionShort="#syb_injector_base_desc";
     rotationFlags=17;
     itemSize[]={1,2};
@@ -26,8 +24,7 @@ class InjectorBase : Inventory_Base
     medicalItem=1;
 };
 
-class InjectorPromedol : InjectorBase
-{
+class InjectorPromedol: InjectorBase {
     scope=2;
     displayName="#syb_promedol_name";
     model="\dz\gear\medical\morphine.p3d";
@@ -39,8 +36,7 @@ class InjectorPromedol : InjectorBase
     INJECTOR_ANIM_EVENTS;
 };
 
-class InjectorZivirol : InjectorBase
-{
+class InjectorZivirol: InjectorBase {
     scope=2;
     displayName="#syb_zvirus_antidot_name";
     model="\dz\gear\medical\morphine.p3d";
@@ -52,8 +48,7 @@ class InjectorZivirol : InjectorBase
     INJECTOR_ANIM_EVENTS;
 };
 
-class InjectorTopoizomeraza : InjectorBase
-{
+class InjectorTopoizomeraza: InjectorBase {
     scope=2;
     displayName="#syb_topoizomeraza_name";
     model="\dz\gear\medical\morphine.p3d";
@@ -64,8 +59,7 @@ class InjectorTopoizomeraza : InjectorBase
     INJECTOR_ANIM_EVENTS;
 };
 
-class InjectorErytropoenin : InjectorBase
-{
+class InjectorErytropoenin: InjectorBase {
     scope=2;
     displayName="#syb_erytropoenin_name";
     model="\dz\gear\medical\morphine.p3d";
@@ -79,8 +73,7 @@ class InjectorErytropoenin : InjectorBase
     INJECTOR_ANIM_EVENTS;
 };
 
-class InjectorNeiroks : InjectorBase
-{
+class InjectorNeiroks: InjectorBase {
     scope=2;
     displayName="#syb_neiroks_name";
     model="\dz\gear\medical\morphine.p3d";
@@ -92,8 +85,7 @@ class InjectorNeiroks : InjectorBase
     INJECTOR_ANIM_EVENTS;
 };
 
-class InjectorAmoksivan : InjectorBase
-{
+class InjectorAmoksivan: InjectorBase {
     scope=2;
     displayName="#syb_amoksivan_name";
     model="\dz\gear\medical\morphine.p3d";
@@ -108,8 +100,7 @@ class InjectorAmoksivan : InjectorBase
     INJECTOR_ANIM_EVENTS;
 };
 
-class InjectorKetorol : InjectorBase
-{
+class InjectorKetorol: InjectorBase {
     scope=2;
     displayName="#syb_ketorol_name";
     model="\dz\gear\medical\morphine.p3d";
@@ -126,8 +117,7 @@ class InjectorKetorol : InjectorBase
     INJECTOR_ANIM_EVENTS;
 };
 
-class InjectorEpipen : InjectorBase
-{
+class InjectorEpipen: InjectorBase {
     scope=2;
     displayName="#syb_epipen_name";
     model="\dz\gear\medical\morphine.p3d";
@@ -140,8 +130,7 @@ class InjectorEpipen : InjectorBase
     INJECTOR_ANIM_EVENTS;
 };
 
-class InjectorNovichek : InjectorBase
-{
+class InjectorNovichek: InjectorBase {
     scope=2;
     displayName="#syb_novichek_name";
     model="\dz\gear\medical\morphine.p3d";
@@ -153,8 +142,7 @@ class InjectorNovichek : InjectorBase
     INJECTOR_ANIM_EVENTS;
 };
 
-class InjectorRadioprotector : InjectorBase
-{
+class InjectorRadioprotector: InjectorBase {
     scope=2;
     displayName="#syb_radioprotector";
     model="\dz\gear\medical\morphine.p3d";

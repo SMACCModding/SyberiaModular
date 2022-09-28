@@ -1,6 +1,5 @@
 class baseCharacter_SoundShader;
-class messagePDA_Soundshader: baseCharacter_SoundShader
-{
+class messagePDA_Soundshader: baseCharacter_SoundShader {
     samples[]=
     {
         {
@@ -9,8 +8,7 @@ class messagePDA_Soundshader: baseCharacter_SoundShader
     };
     volume=0.3;
 };
-class hearthbit_Soundshader: baseCharacter_SoundShader
-{
+class hearthbit_Soundshader: baseCharacter_SoundShader {
     samples[]=
     {
         {
@@ -19,8 +17,7 @@ class hearthbit_Soundshader: baseCharacter_SoundShader
     };
     volume=0.3;
 };
-class psieffect_Soundshader: baseCharacter_SoundShader
-{
+class psieffect_Soundshader: baseCharacter_SoundShader {
     samples[]=
     {
         {
@@ -29,8 +26,7 @@ class psieffect_Soundshader: baseCharacter_SoundShader
     };
     volume=0.5;
 };
-class adminMessage_Soundshader: baseCharacter_SoundShader
-{
+class adminMessage_Soundshader: baseCharacter_SoundShader {
     samples[]=
     {
         {

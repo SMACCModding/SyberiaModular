@@ -15,8 +15,7 @@
 
 // Items
 class Inventory_Base;
-class Edible_Base: Inventory_Base
-{
+class Edible_Base: Inventory_Base {
     varTemperatureMin=-100;
 };
 

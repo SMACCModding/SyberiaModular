@@ -1,5 +1,4 @@
-class SyringeEmpty : Inventory_Base
-{
+class SyringeEmpty: Inventory_Base {
     scope=2;
     displayName="#syb_syringe_empty_name";
     descriptionShort="#syb_syringe_empty_desc";
@@ -13,8 +12,7 @@ class SyringeEmpty : Inventory_Base
     ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\syringe.rvmat", "SyberiaScripts\data\medical\syringe_damage.rvmat", "SyberiaScripts\data\medical\syringe_destruct.rvmat");
 };
 
-class SyringeFull : Inventory_Base
-{
+class SyringeFull: Inventory_Base {
     scope=2;
     displayName="#syb_syringe_full_name";
     descriptionShort="#syb_syringe_full_desc";
@@ -57,8 +55,7 @@ class SyringeFull : Inventory_Base
     };
 };
 
-class BandageHemostatic: BandageDressing
-{
+class BandageHemostatic: BandageDressing {
     scope=2;
     displayName="#syb_hemostatic_bandage_name";
     descriptionShort="#syb_hemostatic_bandage_desc";
@@ -114,8 +111,7 @@ class BandageHemostatic: BandageDressing
     };
 };
 
-class SurgicalKit: Inventory_Base
-{
+class SurgicalKit: Inventory_Base {
     scope=2;
     displayName="#syb_surgical_kit_once_name";
     descriptionShort="#syb_surgical_kit_once_desc";

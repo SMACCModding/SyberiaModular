@@ -1,6 +1,5 @@
-class SodaCan_EnergyDrink : SodaCan_ColorBase { };
-class SodaCan_MadBull: SodaCan_EnergyDrink
-{
+class SodaCan_EnergyDrink: SodaCan_ColorBase { };
+class SodaCan_MadBull: SodaCan_EnergyDrink {
     scope=2;
     displayName="#syb_mad_bull_name";
     descriptionShort="#syb_mad_bull_desc";
@@ -8,8 +7,7 @@ class SodaCan_MadBull: SodaCan_EnergyDrink
     {
         "SyberiaScripts\data\drinks\sodacan_madbull_co.paa"
     };
-    class AnimEvents
-    {
+    class AnimEvents {
         class SoundWeapon
         {
             class SodaCan_in_B

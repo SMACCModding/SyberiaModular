@@ -1,5 +1,4 @@
-class DebugBuildingTool: Inventory_Base
-{
+class DebugBuildingTool: Inventory_Base {
     scope = 2;
     title = "DEBUG BUILDING TOOL";
     displayName = "DEBUG BUILDING TOOL";

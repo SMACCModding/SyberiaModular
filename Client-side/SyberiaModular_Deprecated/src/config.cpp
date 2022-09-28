@@ -34,10 +34,9 @@ class CfgMods {
 	};
 };
 
-class CfgVehicles
-{
+class CfgVehicles {
     #include "predef.hpp"
-    #include "characters.hpp"
+    #include "ghost_characters.hpp"
     #include "zombie_redef.hpp"
     #include "animals_redef.hpp"
     #include "fix_items.hpp"
@@ -61,43 +60,35 @@ class CfgVehicles
     #include "objective_zones.hpp"
 };
 
-class CfgAmmo
-{
+class CfgAmmo {
     #include "ammo.hpp"
 };
 
-class CfgSounds
-{
+class CfgSounds {
     #include "sounds.hpp"
 };
 
-class CfgSoundShaders
-{
+class CfgSoundShaders {
     #include "sounds_shaders.hpp"
 };
 
-class CfgSoundSets
-{
+class CfgSoundSets {
     #include "sounds_sets.hpp"
 };
 
-class CfgSyberia
-{
+class CfgSyberia {
     #include "syberia_config.hpp"
 };
 
-class CfgSlots
-{
+class CfgSlots {
     #include "slots.hpp"
 };
 
-class CfgBuildingInfo
-{
+class CfgBuildingInfo {
 
 };
 
-class CfgBuildingResources
-{
+class CfgBuildingResources {
     #include "building_resources.hpp"
 };
 

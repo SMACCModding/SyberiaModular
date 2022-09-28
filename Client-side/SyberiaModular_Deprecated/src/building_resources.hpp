@@ -1,7 +1,5 @@
-class Doors
-{
-    class Default
-    {
+class Doors {
+    class Default {
         class Level1
         {
             consumablesClass[] = {"WoodenPlank", "Nail"};

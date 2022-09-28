@@ -1,5 +1,4 @@
-class CfgWorlds
-{
+class CfgWorlds {
 	class DefaultWorld
 	{
         winterWorld=0;
@@ -48,8 +47,7 @@ class CfgWorlds
     };
 };
 
-class RscMapControl
-{
+class RscMapControl {
 	scaleMin=4.9999999e-005;
 	scaleMax=0.85000002;
 	scaleDefault=0.85000002;
@@ -385,8 +383,7 @@ class RscMapControl
 		coefMax=4;
 	};
 };
-class CfgLocationTypes
-{
+class CfgLocationTypes {
 	class Name
 	{
 		name="keypoint";

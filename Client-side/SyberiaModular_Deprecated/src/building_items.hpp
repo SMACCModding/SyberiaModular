@@ -21,8 +21,7 @@
     }; \
 }
 
-class ItemHomebook: Inventory_Base
-{
+class ItemHomebook: Inventory_Base {
     scope = 2;
     title = "#syb_homebook_name";
     displayName = "#syb_homebook_name";
