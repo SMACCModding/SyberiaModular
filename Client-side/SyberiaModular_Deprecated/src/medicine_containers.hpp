@@ -1,3 +1,4 @@
+// TODO: Fix this shit
 #define INJECTOR_ANIM_EVENTS class AnimEvents\ {\
     class SoundWeapon\
     {\

@@ -16,7 +16,6 @@ class SYB_Balm_ColorBase: Inventory_Base {
     hiddenSelections[]={"zbytek"};
     ITEM_DAMAGE_SYSTEM(150, "DZ\gear\medical\data\vitamin_bottle.rvmat", "DZ\gear\medical\data\vitamin_bottle_damage.rvmat", "DZ\gear\medical\data\vitamin_bottle_destruct.rvmat");
 };
-class SalveBase: SYB_Balm_ColorBase {}; //TODO: Remove
 class SYB_Balm_Kapsikam: SYB_Balm_ColorBase {
     scope=2;
     displayName="#syb_kapsikam_name";
