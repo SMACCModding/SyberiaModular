@@ -93,21 +93,21 @@ modded class PlayerBase
 		AddAction(ActionCheckName, InputActionMap);
 		AddAction(ActionSayName, InputActionMap);			
 	}
-	
-	override void IncreaseDiseaseCount()
-	{
-		m_DiseaseCount = 0;
-	}
-	
-	override void DecreaseDiseaseCount()
-	{
-		m_DiseaseCount = 0;
-	}
-	
-	override bool HasDisease()
-	{
-		return false;
-	}
+//TODO: (Re-enable Vanilla Zones) Test then remove this!
+//	override void IncreaseDiseaseCount()
+//	{
+//		m_DiseaseCount = 0;
+//	}
+//
+//	override void DecreaseDiseaseCount()
+//	{
+//		m_DiseaseCount = 0;
+//	}
+//
+//	override bool HasDisease()
+//	{
+//		return false;
+//	}
 	
 	override bool IsBleeding()
 	{

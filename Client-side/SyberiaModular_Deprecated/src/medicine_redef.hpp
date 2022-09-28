@@ -43,10 +43,11 @@ class TetracyclineAntibiotics: Edible_Base
     scope=0;
 };
 
-class AntiChemInjector: Inventory_Base
-{
-    scope=0;
-};
+//TODO: (Re-enable Vanilla Zones) Test then remove this!
+//class AntiChemInjector: Inventory_Base
+//{
+//    scope=0;
+//};
 
 class BandageDressing: Inventory_Base
 {

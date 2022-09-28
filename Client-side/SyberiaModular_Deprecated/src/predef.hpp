@@ -28,7 +28,7 @@ class BaseBuildingBase;
 class House;
 class HouseNoDestruct;
 class Transmitter_Base;
-class EffectArea;
+//class EffectArea; //TODO: (Re-enable Vanilla Zones) Test then remove this!
 
 // Characters
 class SurvivorM_Mirek;
@@ -62,12 +62,13 @@ class SurvivorF_Linda;
 class SurvivorF_Maria;
 class SurvivorF_Naomi;
 
+//TODO: (Re-enable Vanilla Zones) Test then remove this!
 // Areas
-class ContaminatedArea_Static: EffectArea
-{
-    scope=0;
-};
-class ContaminatedArea_Dynamic: EffectArea
-{
-    scope=0;
-};
+//class ContaminatedArea_Static: EffectArea
+//{
+//    scope=0;
+//};
+//class ContaminatedArea_Dynamic: EffectArea
+//{
+//    scope=0;
+//};
