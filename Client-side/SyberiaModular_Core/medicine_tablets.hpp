@@ -1,0 +1,641 @@
+class SYB_Tablets_ColorBase: Edible_Base {
+    descriptionShort="#syb_tablets_common_desc";
+    rotationFlags=17;
+    itemSize[]={1,2};
+    varQuantityInit=10;
+    varQuantityMin=0;
+    varQuantityMax=10;
+    varQuantityDestroyOnMin=1;
+    weight=20;
+    stackedUnit="pills";
+    canBeSplit=1;
+    quantityBar=0;
+    absorbency=0;
+    overdosedIncrement=0.1;
+    medicalItem=1;
+    hiddenSelections[]=
+    {
+        "pills"
+    }; 
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
+    class AnimEvents {
+        class Tablets_open {
+            soundSet="Tablets_open_SoundSet";
+            id=201;
+        };
+        class Tablets_catch {
+            soundSet="Tablets_catch_SoundSet";
+            id=202;
+        };
+        class Tablets_close {
+            soundSet="Tablets_close_SoundSet";
+            id=203;
+        };
+        class pickup {
+            soundSet="purificationtablets_pickup_SoundSet";
+            id=797;
+        };
+        class drop {
+            soundset="purificationtablets_drop_SoundSet";
+            id=898;
+        };
+    };
+};
+class SYB_Tablets_Analgin: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_analgin_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medPainkillerLevel=1;
+    medPainkillerTimeSec=300;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_green_co.paa"
+    };
+};
+class SYB_Tablets_Naiz: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_naiz_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medPainkillerLevel=1;
+    medPainkillerTimeSec=1400;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_brown_co.paa"
+    };
+};
+class SYB_Tablets_Aertal: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_aertal_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medPainkillerLevel=1;
+    medPainkillerTimeSec=1300;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_blue_co.paa"
+    };
+};
+class SYB_Tablets_Nimesil: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_nimesil_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medPainkillerLevel=1;
+    medPainkillerTimeSec=1300;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_green_co.paa"
+    };
+};
+class SYB_Tablets_Pentalgin: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_pentalgin_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medPainkillerLevel=1;
+    medPainkillerTimeSec=800;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_white_co.paa"
+    };
+};
+class SYB_Tablets_Movalis: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_movalis_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medPainkillerLevel=1;
+    medPainkillerTimeSec=800;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_sepia_co.paa"
+    };
+};
+class SYB_Tablets_Cytramon: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_cytramon_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medPainkillerLevel=1;
+    medPainkillerTimeSec=400;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_green_co.paa"
+    };
+};
+class SYB_Tablets_Paracetamol: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_paracetamol_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medPainkillerLevel=1;
+    medPainkillerTimeSec=1000;
+    medAntibioticLevel=1;
+    medAntibioticsTimeSec=200;
+    medAntibioticsStrength=0.5;
+    overdosedIncrement=0.15;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_blue_co.paa"
+    };
+};
+class SYB_Tablets_Ibuprofen: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_ibuprofen_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medPainkillerLevel=1;
+    medPainkillerTimeSec=800;
+    medAntibioticLevel=2;
+    medAntibioticsTimeSec=400;
+    medAntibioticsStrength=0.8;
+    overdosedIncrement=0.2;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_white_co.paa"
+    };
+};
+class SYB_Tablets_Nurofen: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_nurofen_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medPainkillerLevel=1;
+    medPainkillerTimeSec=800;
+    medAntibioticLevel=2;
+    medAntibioticsTimeSec=600;
+    medAntibioticsStrength=1.0;
+    overdosedIncrement=0.2;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_brown_co.paa"
+    };
+};
+class SYB_Tablets_Tetracycline: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_tetracycline_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medAntibioticLevel=2;
+    medAntibioticsTimeSec=900;
+    medAntibioticsStrength=1.5;
+    overdosedIncrement=0.2;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_brown_co.paa"
+    };
+};
+class SYB_Tablets_Amoksiklav: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_amoksiklav_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medAntibioticLevel=2;
+    medAntibioticsTimeSec=1200;
+    medAntibioticsStrength=1.5;
+    overdosedIncrement=0.25;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_sepia_co.paa"
+    };
+};
+class SYB_Tablets_Ampicylin: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_ampicilin_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medAntibioticLevel=2;
+    medAntibioticsTimeSec=900;
+    medAntibioticsStrength=1.3;
+    overdosedIncrement=0.23;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_blue_co.paa"
+    };
+};
+class SYB_Tablets_Piperacylin: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_piperacyclin_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medAntibioticLevel=2;
+    medAntibioticsTimeSec=1100;
+    medAntibioticsStrength=1.4;
+    overdosedIncrement=0.25;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_green_co.paa"
+    };
+};
+class SYB_Tablets_Trihopol: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_trihopol_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medAntibioticLevel=1;
+    medAntibioticsTimeSec=400;
+    medAntibioticsStrength=0.8;
+    overdosedIncrement=0.15;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_green_co.paa"
+    };
+};
+class SYB_Tablets_Cyprolet: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_cyprolet_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medAntibioticLevel=1;
+    medAntibioticsTimeSec=500;
+    medAntibioticsStrength=0.8;
+    overdosedIncrement=0.15;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_white_co.paa"
+    };
+};
+class SYB_Tablets_Amoksivan: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_amoksivan_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medAntibioticLevel=2;
+    medAntibioticsTimeSec=600;
+    medAntibioticsStrength=1.2;
+    overdosedIncrement=0.28;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_sepia_co.paa"
+    };
+};
+class SYB_Tablets_Amibaktam: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_amibaktam_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medAntibioticLevel=1;
+    medAntibioticsTimeSec=300;
+    medAntibioticsStrength=0.5;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_white_co.paa"
+    };
+};
+class SYB_Tablets_Charcoal: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_charcoal_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medStomatchhealLevel=1;
+    medStomatchhealTimeSec=60;
+    overdosedIncrement=0.0;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_black_co.paa"
+    };
+};
+class SYB_Tablets_MezimForte: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_mezim_forte_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medStomatchhealLevel=1;
+    medStomatchhealTimeSec=120;
+    overdosedIncrement=0.05;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_brown_co.paa"
+    };
+};
+class SYB_Tablets_Zerukal: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_zerukal_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medStomatchhealLevel=1;
+    medStomatchhealTimeSec=180;
+    overdosedIncrement=0.05;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_white_co.paa"
+    };
+};
+class SYB_Tablets_Nifuroksazid: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_nifuroksazid_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medStomatchhealLevel=1;
+    medStomatchhealTimeSec=300;
+    overdosedIncrement=0.05;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_green_co.paa"
+    };
+};
+class SYB_Tablets_Polisorb: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_polisorb_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medStomatchhealLevel=1;
+    medStomatchhealTimeSec=300;
+    overdosedIncrement=0.05;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_blue_co.paa"
+    };
+};
+class SYB_Tablets_Karbopekt: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_karbopekt_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medStomatchhealLevel=1;
+    medStomatchhealTimeSec=300;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_sepia_co.paa"
+    };
+};
+class SYB_Tablets_Enterofuril: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_enterofuril_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medStomatchhealLevel=1;
+    medStomatchhealTimeSec=250;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_brown_co.paa"
+    };
+};
+class SYB_Tablets_Ersefuril: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_ersefuril_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medStomatchhealLevel=1;
+    medStomatchhealTimeSec=400;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_white_co.paa"
+    };
+};
+class SYB_Tablets_Salofalk: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_salofalk_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medStomatchhealLevel=1;
+    medStomatchhealTimeSec=250;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_brown_co.paa"
+    };
+};
+class SYB_Tablets_Ftalazol: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_ftalazol_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medStomatchhealLevel=1;
+    medStomatchhealTimeSec=250;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_white_co.paa"
+    };
+};
+class SYB_Tablets_Mesalazin: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_mesalazin_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medStomatchhealLevel=1;
+    medStomatchhealTimeSec=380;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_blue_co.paa"
+    };
+};
+class SYB_Tablets_Noopept: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_noopept_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medPainkillerLevel=1;
+    medPainkillerTimeSec=60;
+    medConcussionHeal=1;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_blue_co.paa"
+    };
+};
+class SYB_Tablets_Vikasol: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_vikasol_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medBloodHemostatic=1;
+    medBloodHemostaticTimeSec=180;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_white_co.paa"
+    };
+};
+class SYB_Tablets_Dycinon: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_dycinon_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medBloodHemostatic=1;
+    medBloodHemostaticTimeSec=240;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_white_co.paa"
+    };
+};
+class SYB_Tablets_Irovit: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_irovit_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medBloodHematopoiesis=1;
+    medBloodHematopoiesisTimeSec=120;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_green_co.paa"
+    };
+};
+class SYB_Tablets_Tardiferon: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_tardiferon_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medBloodHematopoiesis=1;
+    medBloodHematopoiesisTimeSec=180;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_brown_co.paa"
+    };
+};
+class SYB_Tablets_Heferol: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_heferol_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medBloodHematopoiesis=1;
+    medBloodHematopoiesisTimeSec=220;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_sepia_co.paa"
+    };
+};
+class SYB_Tablets_SorbiferDurulis: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_surbifer_durulis_name";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medBloodHematopoiesis=1;
+    medBloodHematopoiesisTimeSec=300;
+    medBloodHemostatic=1;
+    medBloodHemostaticTimeSec=300;
+    overdosedIncrement=0.15;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_white_co.paa"
+    };
+};
+class SYB_Tablets_PotassiumIodide: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_potassium_iodide";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medRadioprotectionLevel=1;
+    medRadioprotectionTimer=60;
+    overdosedIncrement=0.2;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_white_co.paa"
+    };
+};
+class SYB_Tablets_PotassiumHexacyanoferrate: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_potassium_hexacyanoferrate";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medRadioprotectionLevel=1;
+    medRadioprotectionTimer=90;
+    overdosedIncrement=0.3;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_black_co.paa"
+    };
+};
+class SYB_Tablets_Cystamine: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_cystamine";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medRadioprotectionLevel=1;
+    medRadioprotectionTimer=120;
+    overdosedIncrement=0.3;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_brown_co.paa"
+    };
+};
+class SYB_Tablets_B190: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_b190";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medRadioprotectionLevel=1;
+    medRadioprotectionTimer=140;
+    overdosedIncrement=0.3;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_blue_co.paa"
+    };
+};
+class SYB_Tablets_Mexamine: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_mexamine";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medRadioprotectionLevel=2;
+    medRadioprotectionTimer=30;
+    overdosedIncrement=0.6;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_green_co.paa"
+    };
+};
+class SYB_Tablets_Agteminol: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_agteminol";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medAntidepresantLevel=1;
+    medAntidepresantTimer=60;
+    overdosedIncrement=0.2;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_white_co.paa"
+    };
+};
+class SYB_Tablets_Adepress: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_adepress";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medAntidepresantLevel=1;
+    medAntidepresantTimer=70;
+    overdosedIncrement=0.2;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_sepia_co.paa"
+    };
+};
+class SYB_Tablets_Actaparoxetine: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_aktaparoksetyn";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medAntidepresantLevel=1;
+    medAntidepresantTimer=40;
+    overdosedIncrement=0.2;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_green_co.paa"
+    };
+};
+class SYB_Tablets_Amitriptyline: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_amitriptilin";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medAntidepresantLevel=1;
+    medAntidepresantTimer=100;
+    overdosedIncrement=0.2;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_brown_co.paa"
+    };
+};
+class SYB_Tablets_Venlafaxine: SYB_Tablets_ColorBase {
+    scope=2;
+    displayName="#syb_venlafaxyn";
+    varQuantityInit=10;
+    varQuantityMax=10;
+    medAntidepresantLevel=1;
+    medAntidepresantTimer=90;
+    overdosedIncrement=0.2;
+    hiddenSelectionsTextures[]=
+    {
+        "SyberiaScripts\data\medical\tablets_blue_co.paa"
+    };
+};
