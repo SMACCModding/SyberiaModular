@@ -22,7 +22,7 @@ class SYB_Balm_Kapsikam: SYB_Balm_ColorBase {
     displayName="#syb_kapsikam_name";
     medHematomaHeal=1;
     medHematomaHealTimeSec=300;
-    hiddenSelectionsTextures[]={ "SyberiaScripts\data\medical\salve_blue_co.paa" };
+    hiddenSelectionsTextures[]={ "SyberiaModular_Core\data\medical\salve_blue_co.paa" };
 };
 class SYB_Balm_Finalgon: SYB_Balm_ColorBase {
     scope=2;
@@ -31,7 +31,7 @@ class SYB_Balm_Finalgon: SYB_Balm_ColorBase {
     medHematomaHeal=1;
     medHematomaHealTimeSec=600;
     hiddenSelections[]={"zbytek"};
-    hiddenSelectionsTextures[]={ "SyberiaScripts\data\medical\salve_red_co.paa" };
+    hiddenSelectionsTextures[]={ "SyberiaModular_Core\data\medical\salve_red_co.paa" };
     ITEM_DAMAGE_SYSTEM(150, "DZ\gear\medical\data\vitamin_bottle.rvmat", "DZ\gear\medical\data\vitamin_bottle_damage.rvmat", "DZ\gear\medical\data\vitamin_bottle_destruct.rvmat");
 };
 class SYB_Balm_Viprosal: SYB_Balm_ColorBase {
@@ -41,6 +41,6 @@ class SYB_Balm_Viprosal: SYB_Balm_ColorBase {
     medHematomaHeal=1;
     medHematomaHealTimeSec=400;
     hiddenSelections[]={"zbytek"};
-    hiddenSelectionsTextures[]={ "SyberiaScripts\data\medical\salve_orange_co.paa" };
+    hiddenSelectionsTextures[]={ "SyberiaModular_Core\data\medical\salve_orange_co.paa" };
     ITEM_DAMAGE_SYSTEM(150, "DZ\gear\medical\data\vitamin_bottle.rvmat", "DZ\gear\medical\data\vitamin_bottle_damage.rvmat", "DZ\gear\medical\data\vitamin_bottle_destruct.rvmat");
 };

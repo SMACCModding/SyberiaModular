@@ -33,7 +33,7 @@ class SYB_MedicineVial_Alcohol: SYB_MedicineVial_ColorBase {
     overdosedIncrement=4;
     hiddenSelectionsTextures[]=
     { 
-        "SyberiaScripts\data\medical\ampoule_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_co.paa"
     };
 };
 class SYB_MedicineVial_Hihlofos: SYB_MedicineVial_ColorBase {
@@ -43,7 +43,7 @@ class SYB_MedicineVial_Hihlofos: SYB_MedicineVial_ColorBase {
     overdosedIncrement=4;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\ampoule_red_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_red_co.paa"
     };
 };
 class SYB_MedicineVial_Cypermetrin: SYB_MedicineVial_ColorBase {
@@ -53,7 +53,7 @@ class SYB_MedicineVial_Cypermetrin: SYB_MedicineVial_ColorBase {
     overdosedIncrement=4;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\ampoule_green_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_green_co.paa"
     };
 };
 class SYB_MedicineVial_Diazinon: SYB_MedicineVial_ColorBase {
@@ -63,7 +63,7 @@ class SYB_MedicineVial_Diazinon: SYB_MedicineVial_ColorBase {
     overdosedIncrement=4;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\ampoule_green_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_green_co.paa"
     };
 };
 class SYB_MedicineVial_Arsenic: SYB_MedicineVial_ColorBase {
@@ -73,7 +73,7 @@ class SYB_MedicineVial_Arsenic: SYB_MedicineVial_ColorBase {
     overdosedIncrement=4;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\ampoule_green_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_green_co.paa"
     };
 };
 class SYB_MedicineVial_Novocain: SYB_MedicineVial_ColorBase {
@@ -83,7 +83,7 @@ class SYB_MedicineVial_Novocain: SYB_MedicineVial_ColorBase {
     medPainkillerTimeSec=1500; // 25 minutes
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\ampoule_blue_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_blue_co.paa"
     };
 };
 class SYB_MedicineVial_Irineks: SYB_MedicineVial_ColorBase {
@@ -93,7 +93,7 @@ class SYB_MedicineVial_Irineks: SYB_MedicineVial_ColorBase {
     medPainkillerTimeSec=600; // 25 minutes
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\ampoule_blue_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_blue_co.paa"
     };
 };
 class SYB_MedicineVial_Nimesulid: SYB_MedicineVial_ColorBase {
@@ -103,7 +103,7 @@ class SYB_MedicineVial_Nimesulid: SYB_MedicineVial_ColorBase {
     medPainkillerTimeSec=1600; // 25 minutes
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\ampoule_yellow_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_yellow_co.paa"
     };
 };
 class SYB_MedicineVial_Ketoprofen: SYB_MedicineVial_ColorBase {
@@ -113,7 +113,7 @@ class SYB_MedicineVial_Ketoprofen: SYB_MedicineVial_ColorBase {
     medPainkillerTimeSec=1800;
     hiddenSelectionsTextures[]=
     { 
-        "SyberiaScripts\data\medical\ampoule_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_co.paa"
     };
 };
 class SYB_MedicineVial_Propofol: SYB_MedicineVial_ColorBase {
@@ -124,7 +124,7 @@ class SYB_MedicineVial_Propofol: SYB_MedicineVial_ColorBase {
     overdosedIncrement=0.4;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\ampoule_yellow_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_yellow_co.paa"
     };
 };
 class SYB_MedicineVial_Tiopental: SYB_MedicineVial_ColorBase {
@@ -135,7 +135,7 @@ class SYB_MedicineVial_Tiopental: SYB_MedicineVial_ColorBase {
     overdosedIncrement=0.4;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\ampoule_red_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_red_co.paa"
     };
 };
 class SYB_MedicineVial_Ketamin: SYB_MedicineVial_ColorBase {
@@ -146,7 +146,7 @@ class SYB_MedicineVial_Ketamin: SYB_MedicineVial_ColorBase {
     overdosedIncrement=0.4;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\ampoule_blue_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_blue_co.paa"
     };
 };
 class SYB_MedicineVial_Propanidid: SYB_MedicineVial_ColorBase {
@@ -156,7 +156,7 @@ class SYB_MedicineVial_Propanidid: SYB_MedicineVial_ColorBase {
     medPainkillerTimeSec=400;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\ampoule_yellow_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_yellow_co.paa"
     };
 };
 class SYB_MedicineVial_Gexobarbital: SYB_MedicineVial_ColorBase {
@@ -166,7 +166,7 @@ class SYB_MedicineVial_Gexobarbital: SYB_MedicineVial_ColorBase {
     medPainkillerTimeSec=800;
     hiddenSelectionsTextures[]=
     { 
-        "SyberiaScripts\data\medical\ampoule_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_co.paa"
     };
 };
 class SYB_MedicineVial_SodiumOxybutirate: SYB_MedicineVial_ColorBase {
@@ -177,7 +177,7 @@ class SYB_MedicineVial_SodiumOxybutirate: SYB_MedicineVial_ColorBase {
     overdosedIncrement=0.4;
     hiddenSelectionsTextures[]=
     { 
-        "SyberiaScripts\data\medical\ampoule_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_co.paa"
     };
 };
 class SYB_MedicineVial_Metoclopramid: SYB_MedicineVial_ColorBase {
@@ -187,7 +187,7 @@ class SYB_MedicineVial_Metoclopramid: SYB_MedicineVial_ColorBase {
     medStomatchhealTimeSec=600;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\ampoule_yellow_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_yellow_co.paa"
     };
 };
 class SYB_MedicineVial_Zerukal: SYB_MedicineVial_ColorBase {
@@ -197,7 +197,7 @@ class SYB_MedicineVial_Zerukal: SYB_MedicineVial_ColorBase {
     medStomatchhealTimeSec=800;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\ampoule_blue_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_blue_co.paa"
     };
 };
 class SYB_MedicineVial_Ketorol: SYB_MedicineVial_ColorBase {
@@ -212,7 +212,7 @@ class SYB_MedicineVial_Ketorol: SYB_MedicineVial_ColorBase {
     medAntibioticsStrength=2.0;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\ampoule_green_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_green_co.paa"
     };
 };
 class SYB_MedicineVial_Diklofenak: SYB_MedicineVial_ColorBase {
@@ -224,7 +224,7 @@ class SYB_MedicineVial_Diklofenak: SYB_MedicineVial_ColorBase {
     overdosedIncrement=0.4;
     hiddenSelectionsTextures[]=
     { 
-        "SyberiaScripts\data\medical\ampoule_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_co.paa"
     };
 };
 class SYB_MedicineVial_Heptral: SYB_MedicineVial_ColorBase {
@@ -235,7 +235,7 @@ class SYB_MedicineVial_Heptral: SYB_MedicineVial_ColorBase {
     overdosedIncrement=0.3;
     hiddenSelectionsTextures[]=
     { 
-        "SyberiaScripts\data\medical\ampoule_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_co.paa"
     };
 };
 class SYB_MedicineVial_Cylaspen: SYB_MedicineVial_ColorBase {
@@ -247,7 +247,7 @@ class SYB_MedicineVial_Cylaspen: SYB_MedicineVial_ColorBase {
     overdosedIncrement=0.4;
     hiddenSelectionsTextures[]=
     { 
-        "SyberiaScripts\data\medical\ampoule_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_co.paa"
     };
 };
 class SYB_MedicineVial_Grimipenem: SYB_MedicineVial_ColorBase {
@@ -259,7 +259,7 @@ class SYB_MedicineVial_Grimipenem: SYB_MedicineVial_ColorBase {
     overdosedIncrement=0.4;
     hiddenSelectionsTextures[]=
     { 
-        "SyberiaScripts\data\medical\ampoule_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_co.paa"
     };
 };
 class SYB_MedicineVial_Zeftriaxon: SYB_MedicineVial_ColorBase {
@@ -271,7 +271,7 @@ class SYB_MedicineVial_Zeftriaxon: SYB_MedicineVial_ColorBase {
     overdosedIncrement=0.4;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\ampoule_blue_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_blue_co.paa"
     };
 };
 class SYB_MedicineVial_Erytromicyn: SYB_MedicineVial_ColorBase {
@@ -283,7 +283,7 @@ class SYB_MedicineVial_Erytromicyn: SYB_MedicineVial_ColorBase {
     overdosedIncrement=0.45;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\ampoule_red_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_red_co.paa"
     };
 };
 class SYB_MedicineVial_Flemoclav: SYB_MedicineVial_ColorBase {
@@ -296,7 +296,7 @@ class SYB_MedicineVial_Flemoclav: SYB_MedicineVial_ColorBase {
     medRemoveSepsis=1;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\ampoule_yellow_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_yellow_co.paa"
     };
 };
 class SYB_MedicineVial_Ocsacylin: SYB_MedicineVial_ColorBase {
@@ -309,7 +309,7 @@ class SYB_MedicineVial_Ocsacylin: SYB_MedicineVial_ColorBase {
     medRemoveSepsis=1;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\ampoule_blue_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_blue_co.paa"
     };
 };
 class SYB_MedicineVial_Imipenem: SYB_MedicineVial_ColorBase {
@@ -322,7 +322,7 @@ class SYB_MedicineVial_Imipenem: SYB_MedicineVial_ColorBase {
     medRemoveSepsis=1;
     hiddenSelectionsTextures[]=
     { 
-        "SyberiaScripts\data\medical\ampoule_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_co.paa"
     };
 };
 class SYB_MedicineVial_Amoksivan: SYB_MedicineVial_ColorBase {
@@ -335,7 +335,7 @@ class SYB_MedicineVial_Amoksivan: SYB_MedicineVial_ColorBase {
     medRemoveSepsis=1;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\ampoule_red_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_red_co.paa"
     };
 };
 class SYB_MedicineVial_Zivirol: SYB_MedicineVial_ColorBase {
@@ -345,7 +345,7 @@ class SYB_MedicineVial_Zivirol: SYB_MedicineVial_ColorBase {
     overdosedIncrement=1.8;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\ampoule_red_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_red_co.paa"
     };
 };
 class SYB_MedicineVial_Meksidol: SYB_MedicineVial_ColorBase {
@@ -355,7 +355,7 @@ class SYB_MedicineVial_Meksidol: SYB_MedicineVial_ColorBase {
     overdosedIncrement=0.4;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\ampoule_green_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_green_co.paa"
     };
 };
 class SYB_MedicineVial_Actovegin: SYB_MedicineVial_ColorBase {
@@ -365,7 +365,7 @@ class SYB_MedicineVial_Actovegin: SYB_MedicineVial_ColorBase {
     overdosedIncrement=0.4;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\ampoule_blue_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_blue_co.paa"
     };
 };
 class SYB_MedicineVial_Neiroks: SYB_MedicineVial_ColorBase {
@@ -375,7 +375,7 @@ class SYB_MedicineVial_Neiroks: SYB_MedicineVial_ColorBase {
     overdosedIncrement=0.5;
     hiddenSelectionsTextures[]=
     { 
-        "SyberiaScripts\data\medical\ampoule_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_co.paa"
     };
 };
 class SYB_MedicineVial_Peklitakcel: SYB_MedicineVial_ColorBase {
@@ -386,7 +386,7 @@ class SYB_MedicineVial_Peklitakcel: SYB_MedicineVial_ColorBase {
     overdosedIncrement=0.2;
     hiddenSelectionsTextures[]=
     { 
-        "SyberiaScripts\data\medical\ampoule_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_co.paa"
     };
 };
 class SYB_MedicineVial_NonacogAlpha: SYB_MedicineVial_ColorBase {
@@ -397,7 +397,7 @@ class SYB_MedicineVial_NonacogAlpha: SYB_MedicineVial_ColorBase {
     overdosedIncrement=0.3;
     hiddenSelectionsTextures[]=
     { 
-        "SyberiaScripts\data\medical\ampoule_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_co.paa"
     };
 };
 class SYB_MedicineVial_AminokaprolSulfat: SYB_MedicineVial_ColorBase {
@@ -408,7 +408,7 @@ class SYB_MedicineVial_AminokaprolSulfat: SYB_MedicineVial_ColorBase {
     overdosedIncrement=0.3;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\ampoule_red_co.paa"
+        "SyberiaModular_Core\data\medical\ampoule_red_co.paa"
     };
 };
 class SYB_MedicineVial_Vikasol: SYB_MedicineVial_ColorBase {

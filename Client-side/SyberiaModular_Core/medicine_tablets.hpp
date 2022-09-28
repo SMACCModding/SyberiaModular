@@ -17,7 +17,7 @@ class SYB_Tablets_ColorBase: Edible_Base {
     {
         "pills"
     }; 
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaModular_Core\data\medical\tablets_base.rvmat", "SyberiaModular_Core\data\medical\tablets_base_damage.rvmat", "SyberiaModular_Core\data\medical\tablets_base_destruct.rvmat");
     class AnimEvents {
         class Tablets_open {
             soundSet="Tablets_open_SoundSet";
@@ -50,7 +50,7 @@ class SYB_Tablets_Analgin: SYB_Tablets_ColorBase {
     medPainkillerTimeSec=300;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\tablets_green_co.paa"
+        "SyberiaModular_Core\data\medical\tablets_green_co.paa"
     };
 };
 class SYB_Tablets_Naiz: SYB_Tablets_ColorBase {
@@ -62,7 +62,7 @@ class SYB_Tablets_Naiz: SYB_Tablets_ColorBase {
     medPainkillerTimeSec=1400;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\tablets_brown_co.paa"
+        "SyberiaModular_Core\data\medical\tablets_brown_co.paa"
     };
 };
 class SYB_Tablets_Aertal: SYB_Tablets_ColorBase {
@@ -74,7 +74,7 @@ class SYB_Tablets_Aertal: SYB_Tablets_ColorBase {
     medPainkillerTimeSec=1300;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\tablets_blue_co.paa"
+        "SyberiaModular_Core\data\medical\tablets_blue_co.paa"
     };
 };
 class SYB_Tablets_Nimesil: SYB_Tablets_ColorBase {
@@ -86,7 +86,7 @@ class SYB_Tablets_Nimesil: SYB_Tablets_ColorBase {
     medPainkillerTimeSec=1300;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\tablets_green_co.paa"
+        "SyberiaModular_Core\data\medical\tablets_green_co.paa"
     };
 };
 class SYB_Tablets_Pentalgin: SYB_Tablets_ColorBase {
@@ -98,7 +98,7 @@ class SYB_Tablets_Pentalgin: SYB_Tablets_ColorBase {
     medPainkillerTimeSec=800;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\tablets_white_co.paa"
+        "SyberiaModular_Core\data\medical\tablets_white_co.paa"
     };
 };
 class SYB_Tablets_Movalis: SYB_Tablets_ColorBase {
@@ -110,7 +110,7 @@ class SYB_Tablets_Movalis: SYB_Tablets_ColorBase {
     medPainkillerTimeSec=800;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\tablets_sepia_co.paa"
+        "SyberiaModular_Core\data\medical\tablets_sepia_co.paa"
     };
 };
 class SYB_Tablets_Cytramon: SYB_Tablets_ColorBase {
@@ -122,7 +122,7 @@ class SYB_Tablets_Cytramon: SYB_Tablets_ColorBase {
     medPainkillerTimeSec=400;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\tablets_green_co.paa"
+        "SyberiaModular_Core\data\medical\tablets_green_co.paa"
     };
 };
 class SYB_Tablets_Paracetamol: SYB_Tablets_ColorBase {
@@ -138,7 +138,7 @@ class SYB_Tablets_Paracetamol: SYB_Tablets_ColorBase {
     overdosedIncrement=0.15;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\tablets_blue_co.paa"
+        "SyberiaModular_Core\data\medical\tablets_blue_co.paa"
     };
 };
 class SYB_Tablets_Ibuprofen: SYB_Tablets_ColorBase {
@@ -154,7 +154,7 @@ class SYB_Tablets_Ibuprofen: SYB_Tablets_ColorBase {
     overdosedIncrement=0.2;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\tablets_white_co.paa"
+        "SyberiaModular_Core\data\medical\tablets_white_co.paa"
     };
 };
 class SYB_Tablets_Nurofen: SYB_Tablets_ColorBase {
@@ -170,7 +170,7 @@ class SYB_Tablets_Nurofen: SYB_Tablets_ColorBase {
     overdosedIncrement=0.2;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\tablets_brown_co.paa"
+        "SyberiaModular_Core\data\medical\tablets_brown_co.paa"
     };
 };
 class SYB_Tablets_Tetracycline: SYB_Tablets_ColorBase {
@@ -184,7 +184,7 @@ class SYB_Tablets_Tetracycline: SYB_Tablets_ColorBase {
     overdosedIncrement=0.2;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\tablets_brown_co.paa"
+        "SyberiaModular_Core\data\medical\tablets_brown_co.paa"
     };
 };
 class SYB_Tablets_Amoksiklav: SYB_Tablets_ColorBase {
@@ -198,7 +198,7 @@ class SYB_Tablets_Amoksiklav: SYB_Tablets_ColorBase {
     overdosedIncrement=0.25;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\tablets_sepia_co.paa"
+        "SyberiaModular_Core\data\medical\tablets_sepia_co.paa"
     };
 };
 class SYB_Tablets_Ampicylin: SYB_Tablets_ColorBase {
@@ -212,7 +212,7 @@ class SYB_Tablets_Ampicylin: SYB_Tablets_ColorBase {
     overdosedIncrement=0.23;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\tablets_blue_co.paa"
+        "SyberiaModular_Core\data\medical\tablets_blue_co.paa"
     };
 };
 class SYB_Tablets_Piperacylin: SYB_Tablets_ColorBase {
@@ -226,7 +226,7 @@ class SYB_Tablets_Piperacylin: SYB_Tablets_ColorBase {
     overdosedIncrement=0.25;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\tablets_green_co.paa"
+        "SyberiaModular_Core\data\medical\tablets_green_co.paa"
     };
 };
 class SYB_Tablets_Trihopol: SYB_Tablets_ColorBase {
@@ -240,7 +240,7 @@ class SYB_Tablets_Trihopol: SYB_Tablets_ColorBase {
     overdosedIncrement=0.15;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\tablets_green_co.paa"
+        "SyberiaModular_Core\data\medical\tablets_green_co.paa"
     };
 };
 class SYB_Tablets_Cyprolet: SYB_Tablets_ColorBase {
@@ -254,7 +254,7 @@ class SYB_Tablets_Cyprolet: SYB_Tablets_ColorBase {
     overdosedIncrement=0.15;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\tablets_white_co.paa"
+        "SyberiaModular_Core\data\medical\tablets_white_co.paa"
     };
 };
 class SYB_Tablets_Amoksivan: SYB_Tablets_ColorBase {
@@ -268,7 +268,7 @@ class SYB_Tablets_Amoksivan: SYB_Tablets_ColorBase {
     overdosedIncrement=0.28;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\tablets_sepia_co.paa"
+        "SyberiaModular_Core\data\medical\tablets_sepia_co.paa"
     };
 };
 class SYB_Tablets_Amibaktam: SYB_Tablets_ColorBase {
@@ -281,7 +281,7 @@ class SYB_Tablets_Amibaktam: SYB_Tablets_ColorBase {
     medAntibioticsStrength=0.5;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\tablets_white_co.paa"
+        "SyberiaModular_Core\data\medical\tablets_white_co.paa"
     };
 };
 class SYB_Tablets_Charcoal: SYB_Tablets_ColorBase {
@@ -294,7 +294,7 @@ class SYB_Tablets_Charcoal: SYB_Tablets_ColorBase {
     overdosedIncrement=0.0;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\tablets_black_co.paa"
+        "SyberiaModular_Core\data\medical\tablets_black_co.paa"
     };
 };
 class SYB_Tablets_MezimForte: SYB_Tablets_ColorBase {
@@ -307,7 +307,7 @@ class SYB_Tablets_MezimForte: SYB_Tablets_ColorBase {
     overdosedIncrement=0.05;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\tablets_brown_co.paa"
+        "SyberiaModular_Core\data\medical\tablets_brown_co.paa"
     };
 };
 class SYB_Tablets_Zerukal: SYB_Tablets_ColorBase {
@@ -320,7 +320,7 @@ class SYB_Tablets_Zerukal: SYB_Tablets_ColorBase {
     overdosedIncrement=0.05;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\tablets_white_co.paa"
+        "SyberiaModular_Core\data\medical\tablets_white_co.paa"
     };
 };
 class SYB_Tablets_Nifuroksazid: SYB_Tablets_ColorBase {
@@ -333,7 +333,7 @@ class SYB_Tablets_Nifuroksazid: SYB_Tablets_ColorBase {
     overdosedIncrement=0.05;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\tablets_green_co.paa"
+        "SyberiaModular_Core\data\medical\tablets_green_co.paa"
     };
 };
 class SYB_Tablets_Polisorb: SYB_Tablets_ColorBase {
@@ -346,7 +346,7 @@ class SYB_Tablets_Polisorb: SYB_Tablets_ColorBase {
     overdosedIncrement=0.05;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\tablets_blue_co.paa"
+        "SyberiaModular_Core\data\medical\tablets_blue_co.paa"
     };
 };
 class SYB_Tablets_Karbopekt: SYB_Tablets_ColorBase {
@@ -358,7 +358,7 @@ class SYB_Tablets_Karbopekt: SYB_Tablets_ColorBase {
     medStomatchhealTimeSec=300;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\tablets_sepia_co.paa"
+        "SyberiaModular_Core\data\medical\tablets_sepia_co.paa"
     };
 };
 class SYB_Tablets_Enterofuril: SYB_Tablets_ColorBase {
@@ -370,7 +370,7 @@ class SYB_Tablets_Enterofuril: SYB_Tablets_ColorBase {
     medStomatchhealTimeSec=250;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\tablets_brown_co.paa"
+        "SyberiaModular_Core\data\medical\tablets_brown_co.paa"
     };
 };
 class SYB_Tablets_Ersefuril: SYB_Tablets_ColorBase {
@@ -382,7 +382,7 @@ class SYB_Tablets_Ersefuril: SYB_Tablets_ColorBase {
     medStomatchhealTimeSec=400;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\tablets_white_co.paa"
+        "SyberiaModular_Core\data\medical\tablets_white_co.paa"
     };
 };
 class SYB_Tablets_Salofalk: SYB_Tablets_ColorBase {
@@ -394,7 +394,7 @@ class SYB_Tablets_Salofalk: SYB_Tablets_ColorBase {
     medStomatchhealTimeSec=250;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\tablets_brown_co.paa"
+        "SyberiaModular_Core\data\medical\tablets_brown_co.paa"
     };
 };
 class SYB_Tablets_Ftalazol: SYB_Tablets_ColorBase {

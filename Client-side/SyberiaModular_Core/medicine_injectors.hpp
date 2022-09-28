@@ -26,7 +26,7 @@ class SYB_Injector_Promedol: SYB_Injector_ColorBase {
     medPainkillerTimeSec=1800;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\injector_blue_co.paa"
+        "SyberiaModular_Core\data\medical\injector_blue_co.paa"
     };
 };
 class SYB_Injector_Zivirol: SYB_Injector_ColorBase {
@@ -36,7 +36,7 @@ class SYB_Injector_Zivirol: SYB_Injector_ColorBase {
     overdosedIncrement=1.8;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\injector_red_co.paa"
+        "SyberiaModular_Core\data\medical\injector_red_co.paa"
     };
 };
 class SYB_Injector_Topoizomeraza: SYB_Injector_ColorBase {
@@ -45,7 +45,7 @@ class SYB_Injector_Topoizomeraza: SYB_Injector_ColorBase {
     medRemoveSepsis=1;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\injector_green_co.paa"
+        "SyberiaModular_Core\data\medical\injector_green_co.paa"
     };
 };
 class SYB_Injector_Erytropoenin: SYB_Injector_ColorBase {
@@ -57,7 +57,7 @@ class SYB_Injector_Erytropoenin: SYB_Injector_ColorBase {
     medBloodHemostaticTimeSec=900;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\injector_red_co.paa"
+        "SyberiaModular_Core\data\medical\injector_red_co.paa"
     };
 };
 class SYB_Injector_Neiroks: SYB_Injector_ColorBase {
@@ -67,7 +67,7 @@ class SYB_Injector_Neiroks: SYB_Injector_ColorBase {
     overdosedIncrement=0.5;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\injector_blue_co.paa"
+        "SyberiaModular_Core\data\medical\injector_blue_co.paa"
     };
 };
 class SYB_Injector_Amoksivan: SYB_Injector_ColorBase {
@@ -80,7 +80,7 @@ class SYB_Injector_Amoksivan: SYB_Injector_ColorBase {
     overdosedIncrement=0.6;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\injector_red_co.paa"
+        "SyberiaModular_Core\data\medical\injector_red_co.paa"
     };
 };
 class SYB_Injector_Ketorol: SYB_Injector_ColorBase {
@@ -95,7 +95,7 @@ class SYB_Injector_Ketorol: SYB_Injector_ColorBase {
     medAntibioticsStrength=2.0;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\injector_green_co.paa"
+        "SyberiaModular_Core\data\medical\injector_green_co.paa"
     };
 };
 class SYB_Injector_Epipen: SYB_Injector_ColorBase {
@@ -106,7 +106,7 @@ class SYB_Injector_Epipen: SYB_Injector_ColorBase {
     overdosedIncrement=0.5;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\injector_blue_co.paa"
+        "SyberiaModular_Core\data\medical\injector_blue_co.paa"
     };
 };
 class SYB_Injector_Novichek: SYB_Injector_ColorBase {
@@ -116,7 +116,7 @@ class SYB_Injector_Novichek: SYB_Injector_ColorBase {
     overdosedIncrement=5;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\injector_blue_co.paa"
+        "SyberiaModular_Core\data\medical\injector_blue_co.paa"
     };
 };
 class SYB_Injector_Radioprotector: SYB_Injector_ColorBase {
@@ -127,6 +127,6 @@ class SYB_Injector_Radioprotector: SYB_Injector_ColorBase {
     overdosedIncrement=0.7;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\medical\injector_yellow_co.paa"
+        "SyberiaModular_Core\data\medical\injector_yellow_co.paa"
     };
 };
